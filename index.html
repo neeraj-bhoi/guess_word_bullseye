@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>guess_word_bullseye</title>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="bullseye_logo.png" alt="bullseye-logo">
+        <h1>Guess the Word</h1>
+        <div class="content">
+          <input type="text" class="letter-input" maxlength="1">
+          <div class="inputs"></div>
+          <div class="details">
+            <p class="hint">Hint: <span></span></p>
+            <p class="rGuess">Remaining guesses: <span></span></p>
+            <p class="wGuess">Wrong letters: <span></span></p>
+          </div>
+          <button class="reset-btn">Reset Game</button>
+        </div>
+      </div>
+      <script src="data.js"></script>
+      <script src="index.js"></script>
+    </body>
+</body>
+</html>

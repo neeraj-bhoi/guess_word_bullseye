@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(school.svg);
+}
+
+.logo {
+    width: 80%;
+    margin: 50px 0 50px 50px;
+}
+
+.container {
+    width: 600px;
+    height: 800px;
+    background: white;
+}
+
+.container h1 {
+    font-size: 25px;
+    padding: 20px 55px;
+    border-bottom: 1px solid grey;
+}
+
+.container .content {
+    margin: 25px 25px 35px;
+}
+
+.content .inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}
+
+.inputs input {
+    height:60px;
+    width: 60px;
+    margin: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    color: green;
+    text-align: center;
+    border-radius: 5px;
+    background: none;
+}
+
+.letter-input {
+    z-index: -999;
+    position: absolute;
+}
+
+.inputs input:first-child {
+    margin-left: 0px;
+}
+
+.content .details {
+    margin: 20px 0 25px;
+}
+
+.details p {
+    font-size: 19px;
+    margin: 30px;
+}
+
+.content .reset-btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    padding: 15px 0;
+    margin: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    background: green;
+}
+
+.content .reset-btn:hover {
+    background: green;
+}
