@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-image: url(https://www.hitbullseye.com/images/school.svg);
+    background-image: url("https://www.hitbullseye.com/images/school.svg");
 }
 
 .logo {
